@@ -73,7 +73,7 @@ export class News extends Component {
         
 
 
-            <h1 style={{ color: 'white' , textAlign:'center' }} >News Monkey - Top News</h1>
+            <h1 style={{ color: 'white' , textAlign:'center',marginTop:"100px" }} >News Monkey - Top News</h1>
             {this.state.loading&&<Wait />}           
             <InfiniteScroll
                 dataLength={this.state.articles.length}
